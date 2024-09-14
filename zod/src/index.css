@@ -1,0 +1,46 @@
+html {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-size: 18px;
+  
+  background: linear-gradient(
+    to bottom right,
+    #403F44, #1E1B32
+  );
+}
+
+input {
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+  
+}
+
+.btn {
+  flex-shrink: 0;
+  background: linear-gradient(
+    to bottom right,
+    #FF6868, #FF68DE
+  );
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

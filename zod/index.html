@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/index.css" />
+    <title>Vite + React + TS</title>
+  </head>
+  <body>
+    <div class="row">
+      <div class="column">
+        <div style="font-family: Arial black, Helvetica, sans-serif;">
+          <h1>TypeSafe Form Solution. </h1>
+        </div>
+    </div>
+
+    <div class="column">
+      <form action="" id="form">
+        <label style="font-family: Arial black, Helvetica, sans-serif;">NAME</label><br /> 
+        <input id="name" placeholder="Ex., John Doe" type="text">
+        <div id="name-error"></div>
+        <br />
+        <label style="font-family: Arial black, Helvetica, sans-serif;">EMAIIL ID</label><br />
+        <input id="email" placeholder="Ex., abc@gmail.com">
+        <div id="email-error"></div>
+        <br />
+        <label style="font-family: Arial black, Helvetica, sans-serif;">PHONE NUMBER</label><br />
+        <input type="number" id="phone" placeholder="Your Contact Number">
+        <div id="phone-error"></div>
+        <br />
+        <label style="font-family: Arial black, Helvetica, sans-serif;">PASSWORD</label><br />
+        <input type="password" id="password" placeholder="Provide a Password">
+        <div id="pass-error"></div>
+        <br />
+        <label style="font-family: Arial black, Helvetica, sans-serif;">CONFIRM PASSWORD</label> <br /> <input type="" id="cpassword" placeholder="Confirm Your Password">
+        <div id="cpass-error"></div>
+        <br />
+        <button class="btn" type="submit">Create Account</Button>
+      </form>
+    </div>
+  </div>
+    <script type="module" src="/src/Registration.tsx"></script>
+  </body>
+</html>
