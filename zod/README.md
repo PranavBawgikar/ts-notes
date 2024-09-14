@@ -46,4 +46,3 @@ follow these steps to set up and develop the user registration form with validat
 6. style the user interface:
    - enhance the user experience by applying CSS styles to the registration form components.
    - use CSS frameworks or custom styles to create an aesthetically pleasing and responsive user interface.<br><br>
-![zoddemo](https://github.com/PranavBawgikar/Zodinator/assets/102728016/a7ebe6fc-b765-4d7e-bbd1-e0b5b1498000)
