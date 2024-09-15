@@ -1,5 +1,4 @@
-<p align="center"><img align="center" src="https://github.com/PranavBawgikar/Zodinator/assets/102728016/9224ce43-c618-439b-b519-a931a3dfa50b" height="110" width="127">
-<img align="center" src="https://github.com/PranavBawgikar/Zodinator/assets/102728016/f33f65e8-9003-4898-bbc8-62e9b5231ee4" height="110"></p>
+<p align="center"><img align="center" src="https://github.com/user-attachments/assets/49198030-bf45-4015-823c-90f752a9a47d" height="110" width="200">
 <h1>zod</h1>
 
 <a href="https://github.com/colinhacks/zod">zod</a> is a powerful library for schema validation in typescript.
